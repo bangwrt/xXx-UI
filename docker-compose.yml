@@ -9,4 +9,4 @@ services:
     restart: unless-stopped
     ports:
       - 54321:54321
-      - 443:443
+      - 6443:443
