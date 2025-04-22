@@ -8,5 +8,5 @@ services:
       - $PWD/cert/:/root/cert/
     restart: unless-stopped
     ports:
-      - 54321:54321
+      - 1212:1212
       - 6443:443
